@@ -16,7 +16,7 @@ mongoose.connect('mongodb://localhost:27017/student').then(function(){
     console.log("can not connect database",err);
     process.exit();
 })
-
+gir
 
 app.get("/",(req , res)=>{
     res.send("Okk Node is truning Complate");
